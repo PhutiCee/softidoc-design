@@ -5,6 +5,27 @@
   --foreground: #171717;
 }
 
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes ping-slow {
+  0%, 100% { 
+    transform: scale(1);
+    opacity: 0.2;
+  }
+  50% { 
+    transform: scale(1.1);
+    opacity: 0.4;
+  }
+}
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+.animate-ping-slow {
+  animation: ping-slow 4s ease-in-out infinite;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
