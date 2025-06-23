@@ -100,7 +100,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="min-h-screen py-24 px-4 bg-gradient-to-br from-slate-900 via-purple-950 to-slate-900 text-white overflow-hidden">
+    <div className="min-h-screen py-24 px-4 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-600 text-white overflow-hidden">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
